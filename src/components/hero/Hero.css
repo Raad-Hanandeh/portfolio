@@ -1,0 +1,58 @@
+
+.grow{
+    flex-grow: 1;
+}
+.hero{
+    margin-top: 3rem;
+}
+.grow img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 1px solid rgb(244, 165, 96);
+    padding: 2px;
+    box-shadow: 2px 2px 40px gray inset;
+}
+
+.hero .title{
+    font-size: 2.85rem;
+    line-height: 3.3rem;
+    margin: 24px 0;
+    color: var(--title);
+}
+.verifi{
+  color: var(--blue);
+  margin-left: 1rem;
+}
+.hero .subtitle{
+    font-size: 0.9rem;
+    color: var(--subtitle);
+    line-height: 1.5rem;
+    margin-bottom: 32px;
+}
+.icons{
+    gap: 1.5rem;
+   
+}
+.icons .icon{
+    font-size: 1.5rem;
+    transition: 0.3s;
+    color: var(--subtitle);
+}
+.icon:hover{
+    font-size: 1.6rem;
+    cursor: pointer;
+    color: var(--iconhover);
+}
+.dev{
+    width: 100%;
+    translate: 100px 55px;
+    height: 400px;
+}
+
+
+@media(max-width:1200px){
+    .dev{
+        display: none;
+    }
+}

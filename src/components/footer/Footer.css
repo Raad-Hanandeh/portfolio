@@ -1,0 +1,41 @@
+footer{
+    display: flex;
+    justify-content:space-between;
+    color: var(--subtitle);
+    padding-bottom: 2rem;
+    
+}
+
+.list{
+    display: flex;
+    gap: 1rem;
+    
+}
+.list li a{
+    font-size: 0.9rem;
+   
+}
+.list li a:hover{
+    color: var(--title);
+
+}
+@media (max-width:800px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        color: var(--subtitle);
+        
+    }
+    .copy{
+        font-size: 0.8rem;
+    }
+    .list{
+       
+        margin-bottom: 1rem;
+        
+    }
+    
+
+}
